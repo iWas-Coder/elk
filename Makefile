@@ -113,9 +113,9 @@ mrproper: clean
 
 # Help
 help:
-	@printf "all\t- Build all targets marked with [*]\n"
-	@printf "* elk\t- Build the 'elk' binary\n"
-	@printf "clean\t- Clean build directory\n"
+	@printf "all\t\t- Build all targets marked with [*]\n"
+	@printf "* elk\t\t- Build the 'elk' binary\n"
+	@printf "clean\t\t- Clean build directory\n"
 	@printf "mrproper\t- Cleans final products (depends on 'build')\n"
 	@echo ""
 	@printf "Execute 'make' or 'make all' to build all targets marked with [*]\n"
